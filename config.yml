@@ -105,7 +105,7 @@ model:
   # Load model with tensor parallelism
   # If a GPU split isn't provided, the TP loader will fallback to autosplit
   # Enabling ignores the gpu_split_auto and autosplit_reserve values
-  tensor_parallel: True
+  tensor_parallel: False
 
   # Automatically allocate resources to GPUs (default: True)
   # NOTE: Not parsed for single GPU users
