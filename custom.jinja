@@ -49,7 +49,7 @@
             {{- \"[/AVAILABLE_TOOLS]\" }}
             {%- endif %}
         {%- if loop.last and system_message is defined %}
-            {{- \"[INST] \" + system_message + \"\\n\\n\" + message[\"content\"] + \"[/INST]\" }}
+            {{- \"[INST] \" + system_message + \"\n\n\" + message[\"content\"] + \"[/INST]\" }}
         {%- else %}
             {{- \"[INST] \" + message[\"content\"] + \"[/INST]\" }}
         {%- endif %}
