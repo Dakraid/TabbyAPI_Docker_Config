@@ -50,7 +50,7 @@ model:
   # An initial model to load.
   # Make sure the model is located in the model directory!
   # REQUIRED: This must be filled out to load a model on startup.
-  model_name: MikeRoz_NeverSleep_Lumimaid-v0.2-123B-5.0bpw-h8-exl2
+  model_name: gghfez_Writer-Large-2411-v2.1
 
   # Names of args to use as a fallback for API load requests (default: []).
   # For example, if you always want cache_mode to be Q4 instead of on the inital model load, add "cache_mode" to this array.
